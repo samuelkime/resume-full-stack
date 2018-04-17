@@ -1,6 +1,11 @@
 h1 {
-
+    text-align: center;
+    color: slateblue;
+    font-style: italic;
 }
+
 p {
-    
+    text-align: center;
+    color: darkslategray;
+    font-family: 'Times New Roman', Times, serif;
 }
