@@ -1,44 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resume</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-light bg-light justify-content-between">
-            <a class="navbar-brand"></a>
-            <form class="form-inline">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </nav>           
-    </header>
-    <section class="container">
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <h1>Samuel Kime</h1>
+    <header class="container-fluid d-flex">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <div class="col navbar-header">
+                    <a class="navbar-brand" href="#">Where The Magic Happens</a>
                 </div>
-                <div class="row">
-                    <img src="" alt="">
+                <div class="col">
+                    <ul class="nav navbar-nav flex-row justify-content-around flex-wrap">
+                        <button type="button" class="btn btn-info">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                        </button>
+                        <button type="button" class="btn btn-success">
+                            <li>
+                                <a href="#">About Me</a>
+                            </li>
+                        </button>
+                        <button type="button" class="btn btn-warning">
+                            <li>
+                                <a href="#">Education</a>
+                            </li>
+                        </button>
+                        <button type="button" class="btn btn-primary">
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                        </button>
+                    </ul>
                 </div>
             </div>
-            <div class="col-6">
-
+        </nav>
+    </header>
+    <!--Finish styling navbar and choose font, 
+    also link buttons to page locations-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+                <div class="row flex-column mt-5 mr-4" id="tcolorwhite">
+                    <h1>Samuel Kime</h1>
+                    <h4>samuelalankime@gmail.com</h4>
+                    <h3>208.801.3369</h3>
+                    <img src="https://vignette.wikia.nocookie.net/thecornerclub/images/e/e1/Blast_500x500-1-.jpg/revision/latest?cb=20150213022400"
+                        height="400px" width="320px" alt="">
+                </div>
+            </div>
+            <div class="col-6 mt-5 pt-4">
+                <div class="row" id="tcolorwhite">
+                    <h1>Education</h1>
+                </div>
+                <div class="row d-flex justify-content-around">
+                    <img src="https://albertoroura.com/wp-content/uploads/2014/05/html5_logo.png" height="64" width="64" alt="">
+                    <img src="https://www.codeias.com/wp-content/uploads/2017/10/Boostrap_logo.svg_-300x300.png" height="64" width="64" alt="">
+                    <img src="http://2ality.com/2011/10/logo-js/js.jpg" height="64" width="64" alt="">
+                    <img src="https://gitforwindows.org/img/gwindows_logo.png" height="60" width="60" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/730px-CSS.3.svg.png" height="50" width="50"
+                        alt="">
+                    <img src="https://seeklogo.com/images/V/vuejs-logo-17D586B587-seeklogo.com.png" height="40" width="40" alt="">
+                </div>
+                <div class="row d-flex flex-wrap flex-column" id="tcolorwhite">
+                    <h1>About Me</h1>
+                    <div class="card" style="width: 15rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="tcolorwhite">
+                    <h1>Portfolio</h1>
+                </div>
             </div>
         </div>
     </section>
     <section></section>
     <footer></footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

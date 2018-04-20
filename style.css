@@ -1,0 +1,10 @@
+body{
+   background-image: url(https://i.pinimg.com/originals/a6/73/36/a67336fd21c32cded2a4d939ed460922.jpg);
+}
+#tcolorwhite{
+    color: antiquewhite;
+    text-shadow: 3px 3px black;
+}
+a{
+    color: black
+}
